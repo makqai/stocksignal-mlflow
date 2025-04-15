@@ -1,0 +1,15 @@
+[project]
+name = "stocksignal-mlflow"
+version = "0.1.0"
+description = "StockSignal-MLFlow is a Machine Learning project that generates Buy, Sell, and Hold signals for AAPL, MSFT, and SPY stock using minute-by-minute trading data. It leverages features like price movements, options-related metrics (Gamma Exposure, Expected Price Swing), and technical indicator (RSI) to predict short-term price changes."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "mlflow>=2.17.0",
+    "pandas>=2.2.3",
+    "numpy>=1.26.4",
+    "scikit-learn>=1.5.2",
+    "python-dotenv>=1.0.1",
+    "ta>=0.11.0",
+    "matplotlib>=3.9.2"
+]
